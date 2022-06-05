@@ -1,0 +1,36 @@
+<script src="<?php echo base_url() ?>assets/payment/js/vendor/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/vendor/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/easing.min.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/hoverIntent.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/superfish.min.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/jquery.ajaxchimp.min.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/jquery.magnific-popup.min.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/owl.carousel.min.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/jquery.sticky.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/jquery.nice-select.min.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/parallax.min.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/waypoints.min.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/jquery.counterup.min.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/mail-script.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/js/main.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="<?php echo base_url() ?>assets/payment/select2/js/select2.min.js"></script>
+<script src="<?php echo base_url() ?>assets/datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<?php echo "<script>" . $this->session->flashdata('message') . "</script>" ?>
+<!--Start of Tawk.to Script-->
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".preloader").fadeOut();
+    })
+    $(":submit").click(function(e) {
+        window.addEventListener("beforeunload", function(event) {
+            $(".preloader").show();
+        });
+    });
+</script>
+
+
+<!--End of Tawk.to Script-->
